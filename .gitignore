@@ -1,0 +1,40 @@
+ # === Virtual Environment ===
+venv/
+backend/venv/
+
+# === Environment Variables ===
+.env
+.env.local
+*.env*
+
+# === Python ===
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+dist/
+build/
+
+# === Chrome Extension ===
+chrome-extension/manifest-local.json
+chrome-extension/*.crx
+chrome-extension/*.pem
+
+# === IDE & Editor ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# === Logs & Databases ===
+*.log
+logs/
+*.sqlite
+*.db
+
+# === System Files ===
+.DS_Store
+Thumbs.db
