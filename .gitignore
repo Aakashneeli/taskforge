@@ -38,3 +38,18 @@ logs/
 # === System Files ===
 .DS_Store
 Thumbs.db
+
+# Secrets
+secret.key
+user_creds/
+.env
+
+# Playwright
+**/ms-playwright/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
